@@ -1,0 +1,79 @@
+.main {
+  height: 80vh;
+  background-color: red; /* Set background color to red */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s; /* Add transition effect for background color */
+}
+
+.main:hover {
+  background-color: blue; /* Change background color on hover */
+}
+
+.message {
+  font-family: "Philosopher", sans-serif;
+  width: 300px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white; /* Set font color to white */
+  transition: color 0.5s; /* Add transition effect for font color */
+}
+
+.main:hover .message {
+  color: black; /* Change font color to black on hover */
+}
+
+@media screen and (min-width: 641px) {
+  .main {
+    background-color: red; /* Set background color to red */
+    background: url(../images/m5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/* CSS for navigation bar */
+nav {
+  background-color: red; /* Set background color to red */
+  transition: background-color 0.5s; /* Add transition effect for background color */
+}
+
+nav:hover {
+  background-color: blue; /* Change background color on hover */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white; /* Set font color to white */
+  transition: color 0.5s; /* Add transition effect for font color */
+}
+
+nav ul li a:hover {
+  color: black; /* Change font color to black on hover */
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.social-container a {
+  margin: 0 10px; /* Adjust spacing between icons */
+}
